@@ -1,0 +1,15 @@
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/bin/Debug/net6.0/001_HelloConsole
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/bin/Debug/net6.0/001_HelloConsole.deps.json
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/bin/Debug/net6.0/001_HelloConsole.runtimeconfig.json
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/bin/Debug/net6.0/001_HelloConsole.dll
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/bin/Debug/net6.0/001_HelloConsole.pdb
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.csproj.AssemblyReference.cache
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.AssemblyInfoInputs.cache
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.AssemblyInfo.cs
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.csproj.CoreCompileInputs.cache
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.dll
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/refint/001_HelloConsole.dll
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.pdb
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/001_HelloConsole.genruntimeconfig.cache
+/Users/ulia/Downloads/ГИГБРЕЙНС ОБУЧЕНИЕ/Geekbrains2/projects/001_HelloConsole/obj/Debug/net6.0/ref/001_HelloConsole.dll
