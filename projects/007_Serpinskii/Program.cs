@@ -1,7 +1,6 @@
 ﻿// Создаетм треугольник Серпинского
-int xa = 40, ya = 1,
-    xb = 1, yb = 30,
-    xc = 80, yc = 30;
+
+int xa = 40, ya = 5, xb = 5, yb = 45, xc = 80, yc = 45;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -10,7 +9,7 @@ Console.WriteLine("+");
 Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
-int x = xa, y = yb;
+int x = xa, y = xb;
 int count = 0;
 while (count < 1000)
 {
