@@ -1,33 +1,33 @@
 ﻿// По заданному номеру дня недели вывести его название
 
 Console.Write("Введите число от 1 до 7: ");
-string username = Console.ReadLine();
+string num = Console.ReadLine();
 
-if (username== "1")
+if (num == "1")
 {
     Console.WriteLine("Сегодня ПОНЕДЕЛЬНИК");
 }
-if(username == "2")
+if(num == "2")
 {
     Console.WriteLine("Сегодня ВТОРНИК");
 }
-if(username == "3")
+if(num == "3")
 {
     Console.WriteLine("Сегодня СРЕДА");
 }
-if(username == "4")
+if(num == "4")
 {
     Console.WriteLine("Сегодня ЧЕТВЕРГ");
 }
-if(username == "5")
+if(num == "5")
 {
     Console.WriteLine("Сегодня ПЯТНИЦА");
 }
-if(username == "6")
+if(num == "6")
 {
     Console.WriteLine("Сегодня СУББОТА");
 }
-if(username == "7")
+if(num == "7")
 {
     Console.WriteLine("Сегодня ВОСКРЕСЕНЬЕ");
 }
