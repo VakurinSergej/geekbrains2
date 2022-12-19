@@ -2,7 +2,7 @@
 
 Console.WriteLine("Введите число: ");
 int a = int.Parse(Console.ReadLine()!);
-if (a > 100)
+if (a > 100 && a < 1000)
 {
 int b = (a % 10);
 Console.Write("Третья цифра числа: ");
@@ -12,10 +12,3 @@ if (a < 100)
 {
 Console.Write("Третьей цифры нет");
 }
-// if (a > 1000)
-// {
-// break
-// int b = (a % 10);
-// Console.Write("Третья цифра числа: ");
-// Console.WriteLine(b);
-// }
