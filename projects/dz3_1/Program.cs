@@ -2,13 +2,13 @@
 // является ли оно палиндромом
 // (читается слева направо и справа налево одинаково)
 
-Console.WriteLine("Введите число: ");
-string number = int.Parse(Console.ReadLine());
-for (i=0; i < number.Length; i++;)
+Console.WriteLine("Введите пятизначное число: ");
+string number = Console.ReadLine();
+if (number[0] == number[4] && number[1] == number[3])
 {
-if (number[i] == number[number.Length])
-    (i++, number.Length--);
-    Console.WriteLine("это число полиндронно");
-//else
-  //  Console.WriteLine("это число НЕ полиндронно");
+  Console.WriteLine("это число палиндром");
+}
+else
+{
+  Console.WriteLine("это число НЕ палиндром");
 }
