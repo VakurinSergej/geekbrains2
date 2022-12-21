@@ -7,7 +7,7 @@ Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
 int result = 0;
 int n = 1;
-if (n <= b)
+while (n <= b)
 {
     int result = a*a;
     n++;
