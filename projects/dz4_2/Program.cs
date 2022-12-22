@@ -1,14 +1,15 @@
 ﻿// Программа, которая принимает на вход число и выдаёт сумму цифр в числе
 
 Console.WriteLine("Введите число: ");
-int number = int.Parse(Console.ReadLine());
-int n = number.Length;
+string number = Console.ReadLine();
 int sum = 0;
 
-for (int i=0; i<n; i++) 
+for (int i = 0; i <number.Length; i++) 
 {
-     sum = sum + number[i];
+     sum = sum + Convert.ToInt32(number[i]);
 }
 Console.WriteLine(sum);
+
+
 
 
