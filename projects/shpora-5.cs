@@ -162,3 +162,27 @@
 // {
 //     Console.WriteLine($"Числа {number} нет в массиве");
 // }
+
+
+
+
+// // разделение чисел строки на отдельные числа, с которыми дальше работаем 
+// // с помощью Split
+
+// Console.WriteLine("Введите числа через пробел: ");
+// string inputText = Console.ReadLine(); // "4 5 2"
+
+// string[] stringArray = inputText.Split(' '); // ["4", "5", "2"]
+
+// int[] arr = new int[stringArray.Length];
+
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     arr[i] = int.Parse(stringArray[i]);
+// }
+
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     Console.Write(arr[i] + " ");
+// }
+
