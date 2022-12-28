@@ -1,6 +1,7 @@
 ﻿// Упорядочивание данных внутри массива
 
 
+
 int[] array = {1, 5, 4, 3, 2, 6, 7, 1, 1};
 // 1) вводим метод вывода на экран
 void PrintArray(int[] array)
@@ -33,3 +34,5 @@ void SelectionSort(int[] array)
 PrintArray(array);
 SelectionSort(array);
 PrintArray(array);
+
+
