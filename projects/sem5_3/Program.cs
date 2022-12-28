@@ -3,7 +3,7 @@
 // присутствует ли заданное число в массиве.
 
 
-Cvoid FillArray(int[] collection)
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
