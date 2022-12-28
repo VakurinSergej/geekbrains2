@@ -29,24 +29,24 @@ void FillArray (int[, ]matr)
 
 int [, ] matrix = new int [5, 2];
 int [, ] matrix2 = new int [5, 2];
-int [, ] matrix3 = new int [5, 2];
+// int [, ] matrix3 = new int [5, 2];
 
 
 FillArray(matrix);
 FillArray(matrix2);
-Console.WriteLine();
 PrintArray(matrix);
+Console.WriteLine();
 PrintArray(matrix2);
 
 
-for (int i = 0; i < matrix.GetLength(0); i++)
-{
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-        {
-            int[,] matrix3 = matrix[i,j] * matrix2[i,j];
-            Console.WriteLine(matrix3);
-        }
-    }
-}
+// for (int i = 0; i < matrix.GetLength(0); i++)
+// {
+//     for (int j = 0; j < matrix.GetLength(1); j++)
+//     {
+//         {
+//             int[,] matrix3 = matrix[i,j] * matrix2[i,j];
+//             Console.WriteLine(matrix3);
+//         }
+//     }
+// }
 
