@@ -47,7 +47,7 @@ void PrintImage(int[,] image)
 PrintImage(pic); // печать картинки
 
 
-void FillImage(int row, int col);
+void FillImage(int row, int col)
 {
     if (pic[row, col] == 0)
     {
@@ -60,27 +60,8 @@ void FillImage(int row, int col);
 }
 
 
-// void FillImage(int row, int col);
-// {
-//    for (int i=0; i<row.Length; i++)
-//     {
-//         for (int j=0; j<col.Length; j++)
-//         {
-//             if (pic[row, col] == 0)
-//             {
-//               pic[row, col] = 1;
-//               FillImage(row-1, col);
-//               FillImage(row, col-1);
-//               FillImage(row+1, col);
-//               FillImage(row, col+1);
-//             }   
-//         }
-//      }
-// }
-   
-
 PrintImage(pic);
-FiilImage(13,13); // это координата случайной точки, от которой будет происходить заполнение рисунка
+FillImage(13,13); // это координата случайной точки, от которой будет происходить заполнение рисунка
 PrintImage(pic);
 
 
