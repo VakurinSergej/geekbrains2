@@ -1,5 +1,6 @@
 ﻿// Создаетм треугольник Серпинского
 
+
 int xa = 40, ya = 5, xb = 5, yb = 45, xc = 80, yc = 45;
 
 Console.SetCursorPosition(xa, ya);
