@@ -30,30 +30,42 @@ FillArray(matrix);
 Console.WriteLine();
 PrintArray(matrix);
 
-int minSumRows = 0;
-
-for (int i = 0; i < matrix.GetLength(1); i++) // столбцы
+int minSumLine = 0;
+int sumLine = SumLineElements(matrix, 0);
+for (int i = 1; i < matrix.GetLength(0); i++)
+{
+    int tempSumLine = SumLineElements(matrix, i);
+    if (sumLine > tempSumLine)
     {
-        int sum = 0;
-
-        for (int j = 0; j < matrix.GetLength(0); j++) // строчки
-        {
-            sum = sum + matrix [j,i];
-            Console.WriteLine($" Сумма строки {sum}");
-            
-            // int min = sum(matrix[j,i]);
-            // if (int sum(matrix[j,i]) < min)
-        }
-        
-
-
-            // if (matrix[j,i] < min)
-            //{
-            //    min = matrix[j,i];
-            // }
-        
+        sumLine = tempSumLine;
+        minSumLine = i;
     }
+}
 
-PrintArray(matrix);
+Console.WriteLine($"{minSumLine + 1} - строкa с наименьшей суммой ({sumLine}) элементов ");
+
+
+int SumLineElements(int[,] matrix, int i)
+{
+    int sumLine = matrix[i,0];
+    for (int j = 1; j < matrix.GetLength(1); j++)
+    {
+        sumLine = sumLine + matrix[i,j];
+    }
+    return sumLine;
+}
+
+int InputNumbers(string input)
+{
+    Console.Write(input);
+    int output = Convert.ToInt32(Console.ReadLine());
+    return output;
+}
+
+
+
+
+
+
 
 
